@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation Bar -->
+<nav class="nav-bar">
+    <div class="logo">
+        <img src="Logo2.jpg" alt="" class="logo">
+        
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Favourites</a></li>
+        <li><a href="#">Playlist</a></li>
+        <li><a href="#">Discover</a></li>
+    </ul>
+
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="Line2"></div>
+        <div class="Line3"></div>
+    </div>
+   
+    <div class="search-box">
+        <input type="text" name="" class="search-txt" placeholder="search">
+        <a href="#" class="search-btn">
+            <i class="fa fa-search"></i>
+        </a>
+    </div>
+
+    
+
+</nav>
+
+<!--main body content-->
+<main class="main-content">
+    <section class="music-disp">
+    <div class="Playlist-recomendation">
+        <img src="chill.jpeg">
+        <img src="spring.jpg">
+        <img src="slaylist.jpg">
+    </div>
+    <div class="headings">
+    <span id="latest-text"><a href="#">Latest Release</a></span>
+    <span id="see-all"><a href="#">See all</a></span>
+    </div>
+    <div class="row">
+        <div class="coloumn" onclick="addfooter();">
+            <div class="card" >
+                <img src="j_art.jpg" style="width:80%;height: auto;padding-top: 10px; margin-top: 8%;">
+                <p class="song-title">Julia</p>
+                <p class="song-artist">Jeremy Zucker</p>
+                <a class="play-btn" onclick="addfooter();"><i class="fa fa-play "></i></a>
+            </div>
+        </div>
+        <div class="coloumn" onclick="addfooter();">
+            <div class="card">
+                <img src="download.jpg" style="width:80%;height: auto;padding-top: 10px; margin-top: 8%;">
+                <p class="song-title">Starboy</p>
+                <p class="song-artist">Weeknd</p>
+                <a  class="play-btn" onclick="addfooter();"><i class="fa fa-play "></i></a>
+            </div>
+        </div>
+        <div class="coloumn" onclick="addfooter();">
+            <div class="card">
+                <img src="j_art.jpg" style="width:80%;height: auto;padding-top: 10px; margin-top: 8%;">
+                <p class="song-title">Not Your Friend</h1>
+                <p class="song-artist">Jeremy Zucker</p>
+                <a href="#" class="play-btn" onclick="addfooter();"><i class="fa fa-play "></i></a>
+            </div>
+        </div>
+    </div>
+   <div class="Fav-art">
+    <span id="latest-text"><a href="#">Favourite Artist</a></span>
+    <span id="see-all"><a href="#">See all</a></span>
+       <div class="artist-img">
+           <div class="artist-details">
+            <img src="edsheeran.jpg" alt="" class="art-img">
+            <p>Teddy'sphot</p>
+            <a href="artist.html" class="play-btn"><i class="fa fa-play "></i></a>
+           </div>
+           <div class="artist-details">
+            <img src="jeremyzuck.jpg" alt="" class="art-img">
+            <p>Jeremy Zucker</p>
+            <a href="artist.html" class="play-btn"><i class="fa fa-play "></i></a>
+           </div>
+           <div class="artist-details">
+            <img src="rolemodel.jpg" alt="" class="art-img">
+            <p>Role Model</p>
+            <a href="artist.html" class="play-btn"><i class="fa fa-play "></i></a>
+           </div>
+           <div class="artist-details">
+            <img src="dualipa.jpg" alt="" class="art-img">
+            <p>Dua Lipa</p>
+            <a href="artist.html" class="play-btn"><i class="fa fa-play "></i></a>
+           </div>
+       </div>
+   </div>
+
+   <div class="Playlist-recomendation">
+    <img src="part.jpg">
+    <img src="maxresdefault.jpg">
+    <img src="rodetrip.jpg">
+    </div>
+</section>
+    <aside>
+        <div class="q-text">
+            <span id="latest-text" ><a href="#">Queue</a></span>
+            <span id="see-all" class="q-see"><a href="#">See all</a></span>
+        </div>
+        <div class="Song-list">
+            <span class="sno">01</span>
+            <img src="j_art.jpg">
+            <span class="song-name"> Not Your friend</span>
+            <span class="Artist">Jeremy Zucker</span>
+            <div class="heart">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="Song-list">
+            <span class="sno">02</span>
+            <img src="goose.jpg">
+            <span class="song-name">Goosebumps</span>
+            <span class="Artist">travis Scott</span>
+            <div class="heart">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="Song-list">
+            <span class="sno">03</span>
+            <img src="modern.jpg">
+            <span class="song-name">Modern Loneliness</span>
+            <span class="Artist">Lauv</span>
+            <div class="heart">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="Song-list">
+            <span class="sno">04</span>
+            <img src="j_art.jpg">
+            <span class="song-name"> Not Your friend</span>
+            <span class="Artist">Jeremy Zucker</span>
+            <div class="heart">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            
+        </div>
+        
+        
+    </aside>
+    
+        <footer id="bottom-footer">
+                <div class="btm-sticky-player">
+                    <img src="sixspeed.jpg">
+                    <span class="song-name">Six speed</span>
+                    <span class="Artist">Role Model</span>
+                    <div class="btm-heart"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                    <div class="music-btn">
+                        <a href="#" class=""><i class="fa fa-random" aria-hidden="true"></i></a>
+                        <a href="#" class=""><i class="fa fa-step-backward" aria-hidden="true"></i></a>
+                        <a href="#" class="circle-around"><i class="fa fa-play fa-fw" aria-hidden="true"></i></a>
+                        <a href="#" class=""><i class="fa fa-step-forward" aria-hidden="true"></i></a>
+                    </div>
+                    <div id="play-bar">
+                        <div id="fill"></div>
+                        <div id="handle"></div>
+                    </div>
+
+                    <i  id ="sound-icon" class="fa fa-volume-off" aria-hidden="true"></i>
+                    <div id="sound-bar">
+                        <div id="sound-fill"></div>
+                        <div id="sound-handle"></div>
+                    </div>
+
+
+                </div>
+            </footer>
+    
+</main>
+
+
+
+
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
+
+        burger.addEventListener('click', () =>{
+            //togglenav
+            nav.classList.toggle('nav-active');
+             
+             //animateLinks
+            navLinks.forEach((link,index) => {
+                if(link.style.animation){
+                    link.style.animation = '';
+                }else{
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index/7 + .5}s`;  
+                    }
+        });
+            //burger animation
+            burger.classList.toggle('toggle');
+        });
+    }
+
+    function addfooter()
+    {    
+        document.getElementById("bottom-footer").style.display="block";    
+    }
+
+
+    navSlide();
+</script>
+</body>
